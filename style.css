@@ -95,6 +95,10 @@
 }
 
 body {
+    height: 100vh;
+}
+
+body {
     /*  font    */
     font-family: another-danger;
 
@@ -111,6 +115,8 @@ body {
 
     color: var(--font-color);
     background-color: var(--primary-color);
+
+    height: 100dvh;
 }
 
 /*  ignored mobile tags */
