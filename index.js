@@ -57,6 +57,8 @@ function showAchievements() {
       if (times >= 3) {
         loadingBar.innerHTML =
           "Found 1.<br>Won Malayalam Essay Writing competition in school at 8th standard.";
+        loadingBar.innerHTML +=
+          "<br>Won Megathon 2024 Qualcomm's Problem Statement";
         clearInterval(toContinueLoading);
       }
     }

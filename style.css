@@ -86,6 +86,11 @@
     src: url(res/fonts/mr-robot.ttf);
 }
 
+@font-face {
+    font-family: housemd;
+    src: url(res/fonts/housemd.ttf);
+}
+
 #header-profile {
     transition: margin-left 0.4s cubic-bezier(0.18, 0.89, 0.32, 1.28);
 
@@ -273,6 +278,10 @@ body {
     padding: 1em;
 }
 
+#housemd-cards {
+    font-family: housemd;
+}
+
 #arcane-cards {
     font-family: arcane;
 }
@@ -403,6 +412,17 @@ body {
         right: 0;
         top: 0;
         z-index: 1;
+        max-height: 10vh;
+        height: 10vh;
+    }
+
+    #header-top-logo {
+        height: 100%;
+    }
+
+    #header-top-logo img {
+        height: 100%;
+        width: 100%;
     }
 
     #header-top-name {
