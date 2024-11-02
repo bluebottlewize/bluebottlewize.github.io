@@ -70,7 +70,6 @@
     src: url(res/fonts/mwheart.ttf);
 }
 
-
 @font-face {
     font-family: vt323;
     src: url(res/fonts/vt323e.ttf);
@@ -967,10 +966,8 @@ body {
     }
 
     #contact {
-
         margin-top: 3vh;
         font-size: 2vh;
-
     }
 
     #contact i {
