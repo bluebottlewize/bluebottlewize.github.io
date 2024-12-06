@@ -1,119 +1,120 @@
 <!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>bluebottle's den</title>
-        <link
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>bluebottle's den</title>
+    <link
             rel="stylesheet"
             href="res/fonts/font-awesome-4.7.0/css/font-awesome.min.css"
-        />
-        <link rel="stylesheet" href="style.css" />
-        <script src="index.js" defer></script>
-    </head>
+    />
+    <link rel="stylesheet" href="style.css"/>
+    <script src="index.js" defer></script>
+</head>
 
-    <body>
-        <header class="header">
-            <div class="header-top">
-                <svg width="36" height="36" id="mobile-hamburger-button">
-                    <path
-                        d="M0,6 36,6"
-                        stroke="currentColor"
-                        stroke-width="5"
-                    />
-                    <path
-                        d="M0,14 36,14"
-                        stroke="currentColor"
-                        stroke-width="5"
-                    />
-                    <path
-                        d="M0,22 36,22"
-                        stroke="currentColor"
-                        stroke-width="5"
-                    />
-                </svg>
-
-                <div id="header-top-logo">
-                    <img src="./res/pics/bluebottlewize.svg">
-                </div>
-
-                <div id="header-top-name">BLUEBOTTLE</div>
-
-                <ul class="navbar">
-                    <li id="about-menu" class="nav-inactive">ABOUT</li>
-                    <li id="education-menu" class="nav-inactive">EDUCATION</li>
-                    <li id="skills-menu" class="nav-inactive">SKILLS</li>
-                    <li id="achievements-menu" class="nav-inactive">
-                        ACHIEVEMENTS
-                    </li>
-                    <li id="blogs-menu" class="nav-inactive">BLOGS</li>
-                </ul>
-
-                <div id="dark-light-button">
-                    <svg
-                        class="dark-mode-toggle__icon"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                    >
-                        <defs>
-                            <mask id="mask">
-                                <rect
-                                    x="0"
-                                    y="0"
-                                    width="100%"
-                                    height="100%"
-                                    fill="white"
-                                />
-                                <circle
-                                    class="dark-mode-toggle__cut-out"
-                                    r="6"
-                                    cx="24"
-                                    cy="10"
-                                    fill="black"
-                                />
-                            </mask>
-                        </defs>
-                        <circle
-                            class="dark-mode-toggle__center-circle"
-                            r="6"
-                            cx="12"
-                            cy="12"
-                            fill="currentColor"
-                            mask="url(#mask)"
+<body>
+<header class="header">
+    <div class="header-top">
+        <svg width="36" height="36" id="mobile-hamburger-button">
+            <path
+                    d="M0,6 36,6"
+                    stroke="currentColor"
+                    stroke-width="5"
+            />
+            <path
+                    d="M0,14 36,14"
+                    stroke="currentColor"
+                    stroke-width="5"
+            />
+            <path
+                    d="M0,22 36,22"
+                    stroke="currentColor"
+                    stroke-width="5"
+            />
+        </svg>
+        
+        <div id="header-top-logo">
+            <img src="./res/pics/bluebottlewize.svg">
+        </div>
+        
+        <div id="header-top-name">BLUEBOTTLE</div>
+        
+        <ul class="navbar">
+            <li id="about-menu" class="nav-inactive">ABOUT</li>
+            <!--            <li id="education-menu" class="nav-inactive">EDUCATION</li>-->
+            <li id="skills-menu" class="nav-inactive">SKILLS</li>
+            <li id="projects-menu" class="nav-inactive">PROJECTS</li>
+            <li id="achievements-menu" class="nav-inactive">
+                ACHIEVEMENTS
+            </li>
+            <li id="blogs-menu" class="nav-inactive">BLOGS</li>
+        </ul>
+        
+        <div id="dark-light-button">
+            <svg
+                    class="dark-mode-toggle__icon"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+            >
+                <defs>
+                    <mask id="mask">
+                        <rect
+                                x="0"
+                                y="0"
+                                width="100%"
+                                height="100%"
+                                fill="white"
                         />
-                        <g
-                            class="dark-mode-toggle__rays"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                        >
-                            <line x1="12" x2="12" y1="3" y2="1" />
-                            <line x1="21" x2="23" y1="12" y2="12" />
-                            <line x1="12" x2="12" y1="21" y2="23" />
-                            <line x1="1" x2="3" y1="12" y2="12" />
-                        </g>
-                        <g
-                            class="dark-mode-toggle__rays"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            transform="rotate(45 12 12)"
-                        >
-                            <line x1="12" x2="12" y1="3" y2="1" />
-                            <line x1="21" x2="23" y1="12" y2="12" />
-                            <line x1="12" x2="12" y1="21" y2="23" />
-                            <line x1="1" x2="3" y1="12" y2="12" />
-                        </g>
-                    </svg>
-                </div>
-            </div>
+                        <circle
+                                class="dark-mode-toggle__cut-out"
+                                r="6"
+                                cx="24"
+                                cy="10"
+                                fill="black"
+                        />
+                    </mask>
+                </defs>
+                <circle
+                        class="dark-mode-toggle__center-circle"
+                        r="6"
+                        cx="12"
+                        cy="12"
+                        fill="currentColor"
+                        mask="url(#mask)"
+                />
+                <g
+                        class="dark-mode-toggle__rays"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                >
+                    <line x1="12" x2="12" y1="3" y2="1"/>
+                    <line x1="21" x2="23" y1="12" y2="12"/>
+                    <line x1="12" x2="12" y1="21" y2="23"/>
+                    <line x1="1" x2="3" y1="12" y2="12"/>
+                </g>
+                <g
+                        class="dark-mode-toggle__rays"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        transform="rotate(45 12 12)"
+                >
+                    <line x1="12" x2="12" y1="3" y2="1"/>
+                    <line x1="21" x2="23" y1="12" y2="12"/>
+                    <line x1="12" x2="12" y1="21" y2="23"/>
+                    <line x1="1" x2="3" y1="12" y2="12"/>
+                </g>
+            </svg>
+        </div>
+    </div>
+    
+    <div id="header-bg"></div>
+</header>
 
-            <div id="header-bg"></div>
-        </header>
-
-        <div class="transition transition-1">
-            <div id="cult-of-v8">
+<div class="transition transition-1">
+    <div id="cult-of-v8">
                 <pre>
                                             
                                      #                                 
@@ -150,36 +151,41 @@
                        ########################                        
                            ################                            
             </pre
-                >
-            </div>
-        </div>
+            >
+    </div>
+</div>
 
-        <article id="about-page">
-            <div id="banner">
-                <section id="quote">BUT WHY?</section>
+<article id="about-page">
+    <div id="banner">
+        <section id="quote">BUT WHY?</section>
+        
+        <section id="contact">
+            <script>
+                function github()
+                {
+                    window.location =
+                        "https://github.com/bluebottlewize";
+                }
 
-                <section id="contact">
-                    <script>
-                        function github() {
-                            window.location =
-                                "https://github.com/bluebottlewize";
-                        }
-                        function linkedin() {
-                            window.location =
-                                "https://www.linkedin.com/in/udith-krishna";
-                        }
-                        function mail() {
-                            window.location =
-                                "mailto:udithkrishna.nair@research.iiit.ac.in";
-                        }
-                    </script>
-                    <i class="fa fa-github" aria-hidden="true" onclick="github();" ></i>
-                    <i class="fa fa-linkedin" aria-hidden="true" onclick="linkedin();" ></i>
-                    <i class="fa fa-envelope" aria-hidden="true" onclick="mail();" ></i>
-                </section>
-            </div>
+                function linkedin()
+                {
+                    window.location =
+                        "https://www.linkedin.com/in/udith-krishna";
+                }
 
-            <section id="terminal">
+                function mail()
+                {
+                    window.location =
+                        "mailto:udithkrishna.nair@research.iiit.ac.in";
+                }
+            </script>
+            <i class="fa fa-github" aria-hidden="true" onclick="github();"></i>
+            <i class="fa fa-linkedin" aria-hidden="true" onclick="linkedin();"></i>
+            <i class="fa fa-envelope" aria-hidden="true" onclick="mail();"></i>
+        </section>
+    </div>
+    
+    <section id="terminal">
                 <pre class="about">
 <output>bluebottle@den:~$ about                      </output>
 <output>Fetching data...                  </output>
@@ -189,7 +195,7 @@
 <output>\`;, `-._ _..--'''```--.._ __.-',;(    age        :    19 years        </output>
 <output> \ `;,  `:.  ,   ;.   .   :'  .;` /    last slept :    4 days ago</output>
 <output>  ; `;;,      .:    :.      ,;;` /     hobbies    :    no time</output>
-<output>   \ ';/    \:: :  . ::/    \;` ;               </output>
+<output id="hits">   \ ';/    \:: :  . ::/    \;` ;      page hits  :    </output>
 <output>    ).' __.._`        '_..__ `./                </output>
 <output>    /<  \\ /I`,      ,'I\ //   >                </output>
 <output>    /\   `;-7/_\ -- /_\7-;'   /\                </output>
@@ -202,117 +208,195 @@
 <output>        / /   `"w==w"'   \ \                    </output>
 <output>         /                \                     </output>
 </pre>
-            </section>
-        </article>
+    </section>
+</article>
 
-        <article id="education-page">
-            <div class="content-layout">
-                <p>10TH PASS</p>
-                <p>12TH PASS</p>
-                <p>
-                    UNDERGRADUATE RESEARCHER AT <br />
-                    IIIT HYDERABAD
-                </p>
-            </div>
-        </article>
-        <article id="skills-page">
-            <div class="content-layout">
-                <p>CAN SLEEP THROUGH WORLD'S END</p>
-                <p>CAN WHISTLE</p>
-                <p>CAN DO SOME COMPUTER STUFF</p>
-                <a href="request.txt" target="blank">request.txt</a>
-            </div>
-        </article>
-        <article id="achievements-page">
-            <div class="content-layout">
-                <p class="loading"></p>
-            </div>
-        </article>
-        <article id="blogs-page">
-            <div class="card-layout">
-                <section id="housemd-cards">
-                    <h1>House</h1>
-                    <div class="card-row">
-                        <div
-                            class="card"
-                            onclick="window.open('blogs/elliot.html', '_blank');"
-                        >
-                            <div class="card-image">
-                                <img src="res/pics/house.jpg" />
-                            </div>
-                            <p class="card-content">
-                                Everybody lies.
-                            </p>
-                        </div>
+<!--<article id="education-page">-->
+<!--    <div class="content-layout">-->
+<!--        <p>10TH PASS</p>-->
+<!--        <p>12TH PASS</p>-->
+<!--        <p>-->
+<!--            UNDERGRADUATE RESEARCHER AT <br/>-->
+<!--            IIIT HYDERABAD-->
+<!--        </p>-->
+<!--    </div>-->
+<!--</article>-->
+<article id="skills-page">
+    <div class="content-layout">
+        <p>CAN SLEEP THROUGH WORLD'S END</p>
+        <p>CAN WHISTLE</p>
+        <p>CAN DO SOME COMPUTER STUFF</p>
+        <a href="request.txt" target="blank">request.txt</a>
+    </div>
+</article>
+<article id="projects-page">
+    <div class="card-layout">
+        <section id="linguistics-cards">
+            <h1>Linguistics</h1>
+            <div class="card-row">
+                <div
+                        class="card"
+                        onclick="window.open('https://github.com/bluebottlewize/lipi', '_blank');"
+                >
+                    <div class="card-image">
+                        <img src="res/pics/lipi.jpg"/>
                     </div>
-                </section>
-                <section id="arcane-cards">
-                    <h1>ARCANE</h1>
-                    <div class="card-row">
-                        <div
-                            class="card"
-                            onclick="window.open('blogs/viktor.html', '_blank');"
-                        >
-                            <div class="card-image">
-                                <img src="res/pics/viktor-2-cropped.jpg" />
-                            </div>
-                            <p class="card-content">
-                                We Lost Ourselves. Lost Our Dream. In The
-                                Pursuit Of Great, We Failed To Do Good.
-                            </p>
-                        </div>
-                        <div
-                            class="card"
-                            onclick="window.open('blogs/vi.html', '_blank');"
-                        >
-                            <div class="card-image">
-                                <img src="res/pics/gauntlets.jpg" />
-                            </div>
-                            <p class="card-content">
-                                How does Vi's gauntlets work?
-                            </p>
-                        </div>
-                        <div
-                            class="card"
-                            onclick="window.open('blogs/heimerdinger.html', '_blank');"
-                        >
-                            <div class="card-image">
-                                <img src="res/pics/heimerdinger.png" />
-                            </div>
-                            <p class="card-content">
-                                Why did Heimerdinger neglect Zaun?
-                            </p>
-                        </div>
-                        <div
-                            class="card"
-                            onclick="window.open('blogs/piltover.html', '_blank');"
-                        >
-                            <div class="card-image">
-                                <img src="res/pics/hexgate.png" />
-                            </div>
-                            <p class="card-content">
-                                Piltover and modern society.
-                            </p>
-                        </div>
+                    <div class="card-content">
+                        <p class="card-content-title">
+                            Lipi
+                        </p>
+                        <p class="card-content-description">
+                            Malayalam Handwriting Input Android Application
+                        </p>
                     </div>
-                </section>
-                <section id="mr-robot-cards">
-                    <h1>MR. ROBOT</h1>
-                    <div class="card-row">
-                        <div
-                            class="card"
-                            onclick="window.open('blogs/elliot.html', '_blank');"
-                        >
-                            <div class="card-image">
-                                <img src="res/pics/mr-robot.jpg" />
-                            </div>
-                            <p class="card-content">
-                                We're all living in each other's paranoia.
-                            </p>
-                        </div>
+                </div>
+                <div
+                        class="card"
+                        onclick="window.open('https://github.com/bluebottlewize/grahyam', '_blank');"
+                >
+                    <div class="card-image">
+                        <img src="res/pics/lipi.jpg"/>
                     </div>
-                </section>
+                    <div class="card-content">
+                        <p class="card-content-title">
+                            Grahyam
+                        </p>
+                        <p class="card-content-description">
+                            Malayalam Handwriting Input Recognition Model
+                        </p>
+                    </div>
+                </div>
             </div>
-        </article>
-    </body>
+        </section>
+        <section id="unixporn-cards">
+            <h1>My r/unixporn stash</h1>
+            <div class="card-row">
+                <div
+                        class="card"
+                        onclick="window.open('https://github.com/bluebottlewize/arcane-jinx-grub-theme', '_blank');"
+                >
+                    <div class="card-image">
+                        <img src="https://github.com/bluebottlewize/arcane-jinx-grub-theme/raw/main/screenshot.png"/>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-content-title">
+                            My Custom Grub Theme
+                        </p>
+                        <p class="card-content-description">
+                            Arcane Themed Custom Grub Theme
+                        </p>
+                    </div>
+                </div>
+                <div
+                        class="card"
+                        onclick="window.open('https://github.com/bluebottlewize/arcanium', '_blank');"
+                >
+                    <div class="card-image">
+                        <img src="https://github.com/bluebottlewize/arcanium/raw/main/screenshots/quickaccess.png"/>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-content-title">
+                            Arcanium
+                        </p>
+                        <p class="card-content-description">
+                            Arcane Themed Custom Browser Startpage
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</article>
+<article id="achievements-page">
+    <div class="content-layout">
+        <p class="loading"></p>
+    </div>
+</article>
+<article id="blogs-page">
+    <div class="card-layout">
+        <section id="housemd-cards">
+            <h1>House</h1>
+            <div class="card-row">
+                <div
+                        class="card"
+                        onclick="window.open('blogs/elliot.html', '_blank');"
+                >
+                    <div class="card-image">
+                        <img src="res/pics/house.jpg"/>
+                    </div>
+                    <p class="card-content">
+                        Everybody lies.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="arcane-cards">
+            <h1>ARCANE</h1>
+            <div class="card-row">
+                <div
+                        class="card"
+                        onclick="window.open('blogs/viktor.html', '_blank');"
+                >
+                    <div class="card-image">
+                        <img src="res/pics/viktor-2-cropped.jpg"/>
+                    </div>
+                    <p class="card-content">
+                        We Lost Ourselves. Lost Our Dream. In The
+                        Pursuit Of Great, We Failed To Do Good.
+                    </p>
+                </div>
+                <div
+                        class="card"
+                        onclick="window.open('blogs/vi.html', '_blank');"
+                >
+                    <div class="card-image">
+                        <img src="res/pics/gauntlets.jpg"/>
+                    </div>
+                    <p class="card-content">
+                        How does Vi's gauntlets work?
+                    </p>
+                </div>
+                <div
+                        class="card"
+                        onclick="window.open('blogs/heimerdinger.html', '_blank');"
+                >
+                    <div class="card-image">
+                        <img src="res/pics/heimerdinger.png"/>
+                    </div>
+                    <p class="card-content">
+                        Why did Heimerdinger neglect Zaun?
+                    </p>
+                </div>
+                <div
+                        class="card"
+                        onclick="window.open('blogs/piltover.html', '_blank');"
+                >
+                    <div class="card-image">
+                        <img src="res/pics/hexgate.png"/>
+                    </div>
+                    <p class="card-content">
+                        Piltover and modern society.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="mr-robot-cards">
+            <h1>MR. ROBOT</h1>
+            <div class="card-row">
+                <div
+                        class="card"
+                        onclick="window.open('blogs/elliot.html', '_blank');"
+                >
+                    <div class="card-image">
+                        <img src="res/pics/mr-robot.jpg"/>
+                    </div>
+                    <p class="card-content">
+                        We're all living in each other's paranoia.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+</article>
+</body>
 </html>

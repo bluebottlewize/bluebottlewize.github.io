@@ -90,6 +90,11 @@
     src: url(res/fonts/housemd.ttf);
 }
 
+@font-face {
+    font-family: jetbrains;
+    src: url(res/fonts/JetBrainsMono-Regular.ttf);
+}
+
 #header-profile {
     transition: margin-left 0.4s cubic-bezier(0.18, 0.89, 0.32, 1.28);
 
@@ -277,6 +282,13 @@ body {
     padding: 1em;
 }
 
+.card-content-title {
+}
+
+.card-content-description {
+    font-size: 1vw;
+}
+
 #housemd-cards {
     font-family: housemd;
 }
@@ -289,8 +301,16 @@ body {
     font-family: mr-robot;
 }
 
+#linguistics-cards {
+    font-family: jetbrains;
+}
+
+#unixporn-cards {
+    font-family: jetbrains;
+}
+
 .card-layout h1 {
-    font-size: 3vw;
+    font-size: 2.5vw;
     margin-bottom: 1vh;
 }
 

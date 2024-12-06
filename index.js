@@ -56,7 +56,7 @@ function showAchievements() {
       }
       if (times >= 3) {
         loadingBar.innerHTML =
-          "Found 1.<br>Won Malayalam Essay Writing competition in school at 8th standard.";
+          "Found 2.<br>Won Malayalam Essay Writing competition in school at 8th standard.";
         loadingBar.innerHTML +=
           "<br>Won Megathon 2024 Qualcomm's Problem Statement";
         clearInterval(toContinueLoading);
@@ -219,17 +219,17 @@ about_menu.addEventListener("click", (event) => {
 
 ///////// education menu
 
-var education_menu = document.getElementById("education-menu");
-education_menu.addEventListener("click", (event) => {
+var projects_menu = document.getElementById("projects-menu");
+projects_menu.addEventListener("click", (event) => {
   // sliding of terminal
   education.classList.remove("slide-in");
   education.classList.add("slide-out");
 
   // disabling other buttons
-  education_menu.classList.add("nav-active");
-  education_menu.classList.remove("nav-inactive");
+  projects_menu.classList.add("nav-active");
+  projects_menu.classList.remove("nav-inactive");
   navItems.forEach((otherItems) => {
-    if (education_menu.id != otherItems.id) {
+    if (projects_menu.id !== otherItems.id) {
       otherItems.classList.add("nav-inactive");
       otherItems.classList.remove("nav-active");
     }
@@ -239,7 +239,7 @@ education_menu.addEventListener("click", (event) => {
   document.getElementsByClassName("top")[0].classList.toggle("top");
 
   setTimeout(() => {
-    document.getElementById("education-page").classList.toggle("top");
+    document.getElementById("projects-page").classList.toggle("top");
     transition_el.classList.remove("is-active");
   }, interval);
   console.log("transition ended");
