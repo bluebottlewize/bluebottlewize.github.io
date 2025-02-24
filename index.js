@@ -51,14 +51,16 @@ function showAchievements() {
       counter = 0;
       ++times;
 
-      if (times >= 2) {
+      if (times >= 1) {
         suffix = "<br> This is taking way longer than expected...";
       }
-      if (times >= 3) {
+      if (times >= 2) {
         loadingBar.innerHTML =
-          "Found 2.<br>Won Malayalam Essay Writing competition in school at 8th standard.";
+          "Found 3.<br>2018 - Won Malayalam Essay Writing competition in school at 8th standard.";
         loadingBar.innerHTML +=
-          "<br>Won Megathon 2024 Qualcomm's Problem Statement";
+          "<br>2024 - Won Megathon 2024 Qualcomm's Problem Statement";
+        loadingBar.innerHTML +=
+            "<br>2025 - Won EnigmaCTF conducted by Elan IIT Hyderabad"
         clearInterval(toContinueLoading);
       }
     }

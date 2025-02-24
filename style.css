@@ -309,6 +309,10 @@ body {
     font-family: jetbrains;
 }
 
+#application-cards {
+    font-family: jetbrains;
+}
+
 .card-layout h1 {
     font-size: 2.5vw;
     margin-bottom: 1vh;
